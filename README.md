@@ -154,7 +154,7 @@ For detailed control over the icons, there are two options available to allow an
 ```php
 // Allow ONLY heroicon-o-user and heroicon-o-users
 IconPicker::make('icon')
-    ->allowIcons(['heroicon-o-user', 'heroicon-o-users']);
+    ->allowedIcons(['heroicon-o-user', 'heroicon-o-users']);
 ```
 
 ```php
